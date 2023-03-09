@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    color: white;
+}
+
+.contenedor{
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 2px 2px 3px 3px;
+}
+
+.formulario{
+    margin: 5px 5px;
+}
+
+.campo{
+    color: black;
+    padding: 7px;
+    width: 100%;
+}
+select.campo{
+    border: none;
+    margin-bottom: 10px;
+}
+
+.boton{
+    padding: 5px 15px;
+    margin-top: 10px;
+    position: relative;
+    left: 80%;
+}
+
+@media (min-width: 500px){
+    .contenedor{
+        width: 100%;
+    }
+}
