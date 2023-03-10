@@ -20,6 +20,7 @@ body{
     color: black;
     padding: 7px;
     width: 100%;
+    box-sizing: border-box;
 }
 select.campo{
     border: none;
@@ -33,7 +34,7 @@ select.campo{
     left: 80%;
 }
 
-@media (min-width: 500px){
+@media (max-width: 500px){
     .contenedor{
         width: 100%;
     }
